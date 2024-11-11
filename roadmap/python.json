@@ -1,0 +1,175 @@
+{
+    "category": "Python",
+    "topics": [
+      {
+        "topic": "Learn the Basics",
+        "subtopics": [
+          { "subtopic": "Basic Syntax", "resources": ["https://www.w3schools.com/python/","https://www.tutorialspoint.com/python/python_basic_syntax.htm","https://learnxinyminutes.com/docs/python/","https://www.youtube.com/watch?v=kqtD5dpn9C8"] },
+          { "subtopic": "Variables and Data Types", "resources": ["https://realpython.com/python-variables","https://www.w3schools.com/python/python_variables.asp","https://www.w3schools.com/python/python_datatypes.asp","https://thenewstack.io/python-for-beginners-data-types/","https://www.youtube.com/playlist?list=PLBlnK6fEyqRhN-sfWgCU1z_Qhakc1AGOn"] },
+          { "subtopic": "Conditionals", "resources": ["https://realpython.com/python-conditional-statements/","https://www.guru99.com/if-loop-python-conditional-structures.html","https://learnpython.com/blog/python-match-case-statement/"] },
+          { "subtopic": "Loops", "resources": ["https://www.geeksforgeeks.org/loops-in-python/","https://realpython.com/python-while-loop/","https://realpython.com/python-for-loop/#the-guts-of-the-python-for-loop","https://www.youtube.com/watch?v=KWgYha0clzw"] },
+          { "subtopic": "Type Casting", "resources": ["https://www.programiz.com/python-programming/type-conversion-and-casting"] },
+          { "subtopic": "Exceptions", "resources": ["https://docs.python.org/3/tutorial/errors.html#exceptions","https://realpython.com/python-exceptions/","https://docs.python.org/3/tutorial/errors.html","https://www.programiz.com/python-programming/exception-handling","https://www.youtube.com/watch?v=V_NXT2-QIlE"] },
+          { "subtopic": "Functions, Builtin Functions", "resources": ["https://docs.python.org/3/library/functions.html","https://www.w3schools.com/python/python_functions.asp"] },
+          { "subtopic": "Lists", "resources": ["https://jerrynsh.com/tuples-vs-lists-vs-sets-in-python/","https://thenewstack.io/python-for-beginners-lists/","https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/","https://www.youtube.com/watch?v=n0krwG38SHI"] },
+          { "subtopic": "Tuples", "resources": ["https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"] },
+          { "subtopic": "Sets", "resources": ["https://learnpython.com/blog/python-sets/","https://www.w3schools.com/python/python_sets.asp","https://www.youtube.com/watch?v=t9j8lCUGZXo"] },
+          { "subtopic": "Dictionaries", "resources": ["https://docs.python.org/3/tutorial/datastructures.html#dictionaries","https://www.w3schools.com/python/python_dictionaries.asp"] }
+        ]
+      },
+      {
+        "topic": "Data Structures & Algorithms",
+        "subtopics": [
+          { "subtopic": "Arrays and Linked Lists", "resources": ["https://www.edureka.co/blog/arrays-in-python/","https://realpython.com/linked-lists-python/","https://www.youtube.com/watch?v=QJNwK2uJyGs","https://www.youtube.com/watch?v=odW9FU8jPRQ"] },
+          { "subtopic": "Heaps, Stacks and Queues", "resources": ["https://stephanosterburg.gitbook.io/scrapbook/coding/coding-interview/data-structures/heaps-stacks-queues","https://realpython.com/how-to-implement-python-stack/","https://realpython.com/queue-in-python/","https://www.educative.io/answers/heap-implementation-in-python","https://www.youtube.com/watch?v=I5lq6sCuABE","https://www.youtube.com/watch?v=mDCi1lXd9hc"] },
+          { "subtopic": "Hash Tables", "resources": ["https://realpython.com/python-hash-table/","https://www.edureka.co/blog/hash-tables-and-hashmaps-in-python/","https://www.youtube.com/watch?v=jalSiaIi8j4"] },
+          { "subtopic": "Binary Search Tree", "resources": ["https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/","https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python","https://www.youtube.com/watch?v=S2W3SXGPVyU"] },
+          { "subtopic": "Recursion", "resources": ["https://realpython.com/python-recursion/"] },
+          { "subtopic": "Sorting Algorithms", "resources": ["https://realpython.com/sorting-algorithms-python/","https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"] }
+        ]
+      },
+      {
+        "topic": "Modules",
+        "subtopics": [
+          { "subtopic": "Builtin", "resources": ["https://docs.python.org/3/py-modindex.html","https://www.digitalocean.com/community/tutorials/python-modules","https://www.knowledgehut.com/tutorials/python-tutorial/python-built-in-modules"] },
+          { "subtopic": "Custom", "resources": ["https://docs.python.org/3/tutorial/modules.html","https://www.programiz.com/python-programming/modules"] }
+        ]
+      },
+      {
+        "topic": "Lambdas",
+        "subtopics": [
+          { "subtopic": "Lambdas Overview", "resources": ["https://www.w3schools.com/python/python_lambda.asp","https://realpython.com/python-lambda/","https://www.youtube.com/watch?v=KR22jigJLok"] }
+        ]
+      },
+      {
+        "topic": "Decorators",
+        "subtopics": [
+          { "subtopic": "Decorators Overview", "resources": [] }
+        ]
+      },
+      {
+        "topic": "Iterators",
+        "subtopics": [
+          { "subtopic": "Iterators Overview", "resources": ["https://www.w3schools.com/python/python_iterators.asp","https://www.programiz.com/python-programming/iterator"] }
+        ]
+      },
+      {
+        "topic": "Regular Expressions",
+        "subtopics": [
+          { "subtopic": "Regular Expressions Overview", "resources": ["https://docs.python.org/3/library/re.html","https://developers.google.com/edu/python/regular-expressions","https://www.tutorialspoint.com/python/python_reg_expressions.htm"] }
+        ]
+      },
+      {
+        "topic": "Object Oriented Programming",
+        "subtopics": [
+          { "subtopic": "Classes", "resources": ["https://docs.python.org/3/tutorial/classes.html","https://www.w3schools.com/python/python_classes.asp","https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc"] },
+          { "subtopic": "Inheritance", "resources": ["https://www.w3schools.com/python/python_inheritance.asp","https://www.javatpoint.com/inheritance-in-python"] },
+          { "subtopic": "Methods, Dunder", "resources": ["https://www.tutorialspoint.com/difference-between-method-and-function-in-python","https://www.tutorialsteacher.com/python/magic-methods-in-python"] }
+        ]
+      },
+      {
+        "topic": "Package Managers",
+        "subtopics": [
+          { "subtopic": "PyPI", "resources": ["https://pypi.org/","https://realpython.com/pypi-publish-python-package/","https://www.youtube.com/watch?v=bPSfNKvhooA"] },
+          { "subtopic": "Pip", "resources": ["https://pip.pypa.io/en/stable/installation/","https://realpython.com/what-is-pip/","https://www.w3schools.com/python/python_pip.asp"] },
+          { "subtopic": "Conda", "resources": ["https://docs.conda.io/en/latest/"] },
+          { "subtopic": "uv", "resources": ["https://github.com/astral-sh/uv"] },
+          { "subtopic": "Poetry", "resources": ["https://python-poetry.org/docs/"] }
+        ]
+      },
+      {
+        "topic": "Common Packages",
+        "subtopics": [
+          { "subtopic": "pyproject.toml", "resources": ["https://packaging.python.org/en/latest/guides/writing-pyproject-toml/"] }
+        ]
+      },
+      {
+        "topic": "List Comprehensions",
+        "subtopics": [
+          { "subtopic": "List Comprehensions Overview", "resources": ["https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions","https://www.w3schools.com/python/python_lists_comprehension.asp","https://www.codeguage.com/courses/python/lists-list-comprehensions","https://www.codeguage.com/courses/python/lists-list-comprehensions-quiz"] }
+        ]
+      },
+      {
+        "topic": "Generator Expressions",
+        "subtopics": [
+          { "subtopic": "Generator Expressions Overview", "resources": ["https://www.pythontutorial.net/advanced-python/python-generator-expressions/","https://djangostars.com/blog/list-comprehensions-and-generator-expressions/"] }
+        ]
+      },
+      {
+        "topic": "Paradigms",
+        "subtopics": [
+          { "subtopic": "Paradigms Overview", "resources": ["https://opensource.com/article/19/10/python-programming-paradigms"] }
+        ]
+      },
+      {
+        "topic": "Context Manager",
+        "subtopics": [
+          { "subtopic": "Context Manager Overview", "resources": ["https://docs.python.org/3/library/contextlib.html","https://www.freecodecamp.org/news/context-managers-in-python/","https://book.pythontips.com/en/latest/context_managers.html"] }
+        ]
+      },
+      {
+        "topic": "Learn a Framework",
+        "subtopics": [
+          { "subtopic": "Pyramid", "resources": ["https://trypyramid.com/","https://trypyramid.com/documentation.html","https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"] },
+          { "subtopic": "Plotly Dash", "resources": ["https://dash.plotly.com/","http://dash.plotly.com/tutorial"] },
+          { "subtopic": "gevent", "resources": ["http://www.gevent.org/","https://github.com/gevent/gevent","https://sdiehl.github.io/gevent-tutorial/"] },
+          { "subtopic": "aiohttp", "resources": ["https://docs.aiohttp.org/en/stable/","https://tutorialedge.net/python/create-rest-api-python-aiohttp/","https://www.youtube.com/watch?v=nFn4_nA_yk8"] },
+          { "subtopic": "Tornado", "resources": ["https://www.tornadoweb.org/","https://phrase.com/blog/posts/tornado-web-framework-i18n/","https://www.youtube.com/watch?v=-gJ21qzpieA"] },
+          { "subtopic": "Sanic", "resources": ["https://sanic.dev/en/"] },
+          { "subtopic": "Fast API", "resources": ["https://fastapi.tiangolo.com/","https://www.youtube.com/watch?v=0sOvCWFmrtA"] },
+          { "subtopic": "Django", "resources": ["https://www.djangoproject.com/","https://www.djangoproject.com/start/","https://stackoverflow.com/questions/58548089/django-is-synchronous-or-asynchronous","https://www.youtube.com/watch?v=rHux0gMZ3Eg"] },
+          { "subtopic": "Flask", "resources": ["https://flask.palletsprojects.com/","https://flask.palletsprojects.com/en/3.0.x/tutorial/"] }
+        ]
+      },
+      {
+        "topic": "Concurrency",
+        "subtopics": [
+          { "subtopic": "GIL", "resources": ["https://realpython.com/python-gil/"] },
+          { "subtopic": "Threading", "resources": ["https://docs.python.org/3/library/threading.html","https://realpython.com/intro-to-python-threading/"] },
+          { "subtopic": "Multiprocessing", "resources": ["https://docs.python.org/3/library/multiprocessing.html","https://www.digitalocean.com/community/tutorials/python-multiprocessing-example","https://realpython.com/python-multiprocessing/"] },
+          { "subtopic": "Asynchrony", "resources": ["https://docs.python.org/3/library/asyncio.html","https://realpython.com/async-io-python/"] }
+        ]
+      },
+      {
+        "topic": "Environments",
+        "subtopics": [
+          { "subtopic": "Pipenv", "resources": ["https://pipenv.pypa.io/en/latest/"] },
+          { "subtopic": "pyenv", "resources": ["https://github.com/pyenv/pyenv"] }
+        ]
+      },
+      {
+        "topic": "Static Typing",
+        "subtopics": [
+          { "subtopic": "Pydantic", "resources": ["https://docs.pydantic.dev/latest/"] },
+          { "subtopic": "mypy", "resources": ["https://mypy-lang.org/","https://github.com/python/mypy"] },
+          { "subtopic": "pyright", "resources": ["https://microsoft.github.io/pyright/"] },
+          { "subtopic": "pyre", "resources": ["https://pyre-check.org/"] },
+          { "subtopic": "typing", "resources": ["https://docs.python.org/3/library/typing.html"] }
+        ]
+      },
+      {
+        "topic": "Code Formatting",
+        "subtopics": [
+          { "subtopic": "ruff", "resources": ["https://docs.astral.sh/ruff/"] },
+          { "subtopic": "black", "resources": ["https://black.readthedocs.io/en/stable/getting_started.html","https://black.readthedocs.io/en/stable/"] },
+          { "subtopic": "yapf", "resources": ["https://github.com/google/yapf"] }
+        ]
+      },
+      {
+        "topic": "Documentation",
+        "subtopics": [
+          { "subtopic": "Sphinx", "resources": ["https://www.sphinx-doc.org/en/master/"] }
+        ]
+      },
+      {
+        "topic": "Testing",
+        "subtopics": [
+          { "subtopic": "doctest", "resources": ["https://docs.python.org/3/library/doctest.html","https://www.digitalocean.com/community/tutorials/how-to-write-doctests-in-python"] },
+          { "subtopic": "nose", "resources": ["https://nose.readthedocs.io/en/latest/","https://www.lambdatest.com/blog/selenium-python-nose-tutorial/"] },
+          { "subtopic": "pytest", "resources": ["https://docs.pytest.org/","https://www.tutorialspoint.com/pytest/index.htm","https://realpython.com/pytest-python-testing/"] },
+          { "subtopic": "unittest / pyUnit", "resources": ["https://wiki.python.org/moin/PyUnit%C2%A0","https://www.digitalocean.com/community/tutorials/how-to-use-unittest-to-write-a-test-case-for-a-function-in-python","https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/"] },
+          { "subtopic": "tox", "resources": ["https://tox.wiki/en/"] }
+        ]
+      }
+    ]
+  }

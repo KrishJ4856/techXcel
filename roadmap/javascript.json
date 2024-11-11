@@ -1,0 +1,687 @@
+{
+    "category": "JavaScript",
+    "topics": [
+      {
+        "topic": "Introduction to JavaScript",
+        "subtopics": [
+          {
+            "subtopic": "What is JavaScript",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+              "https://www.w3schools.com/js/",
+              "https://javascript.info/",
+              "https://www.codeguage.com/courses/js/",
+              "https://exploringjs.com/",
+              "https://youtu.be/hdI2bqOjy3c?t=2",
+              "https://youtu.be/P7t13SGytRk?t=22",
+              "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+            ]
+          },
+          {
+            "subtopic": "History of JavaScript",
+            "resources": ["https://dev.to/codediodeio/the-weird-history-of-javascript-2bnb"]
+          },
+          {
+            "subtopic": "JavaScript Versions",
+            "resources": [
+              "https://www.educative.io/blog/javascript-versions-history",
+              "https://www.w3schools.com/js/js_versions.asp"
+            ]
+          },
+          {
+            "subtopic": "How to run JavaScript",
+            "resources": [
+              "https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html",
+              "https://www.digitalocean.com/community/tutorials/how-to-write-your-first-javascript-program",
+              "https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-developer-console"]
+          }
+        ]
+      },
+      {
+        "topic": "All about Variables",
+        "subtopics": [
+          {
+            "subtopic": "Variable Declarations",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables",
+            "https://www.codeguage.com/courses/js/variables"]
+          },
+          {
+            "subtopic": "Hoisting",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Glossary/Hoisting",
+            "https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript"]
+          },
+          {
+            "subtopic": "Variable Naming Rules",
+            "resources": ["https://www.codeguage.com/courses/js/variables#Tips_for_naming_variables",
+            "https://www.informit.com/articles/article.aspx?p=131025&seqNum=3",
+            "https://www.dummies.com/article/technology/programming-web-design/javascript/naming-javascript-variables-142522/",
+            "https://www.robinwieruch.de/javascript-naming-conventions/",
+            "https://google.github.io/styleguide/jsguide.html"]
+          },
+          {
+            "subtopic": "Variable Scopes",
+            "resources": ["https://www.w3schools.com/js/js_scope.asp",
+            "https://wesbos.com/javascript/03-the-tricky-bits/scope",
+            "https://www.youtube.com/watch?v=_E96W6ivHng"]
+          },
+          {
+            "subtopic": "var, let, const",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var",
+            "https://javascript.info/variables",
+            "https://www.w3schools.com/js/js_variables.asp",
+            "https://www.youtube.com/watch?v=6UAKBYpUC-Y",
+                     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let",
+            "https://javascript.info/variables",
+          "https://www.codeguage.com/courses/js/constants",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const",
+            "https://javascript.info/variables"]
+          },
+          {
+            "subtopic": "Block, Function, Global",
+            "resources": ["https://www.w3schools.com/js/js_scope.asp",
+            "https://www.geeksforgeeks.org/javascript-es2015-block-scoping",
+          "https://www.w3schools.com/js/js_scope.asp",
+"https://medium.com/nerd-for-tech/function-scope-block-scope-in-js-d29c8e7cd216",
+"https://www.w3schools.com/js/js_scope.asp"]
+          }
+        ]
+      },
+      {
+        "topic": "Data Types",
+        "subtopics": [
+          {
+            "subtopic": "string",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+            "https://javascript.info/string"]
+          },
+          {
+            "subtopic": "undefined",
+            "resources": ["https://www.youtube.com/watch?v=B7iF6G3EyIk&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&index=8"]
+          },
+          {
+            "subtopic": "number",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"]
+          },
+          {
+            "subtopic": "bigint",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt",
+            "https://youtu.be/6I650PQfhMg?si=XyVGrmp4KWLRcHVj"]
+          },
+          {
+            "subtopic": "boolean",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+            "https://www.youtube.com/watch?v=B4ZCFdrBmbE"
+          ]
+          },
+          {
+            "subtopic": "null",
+            "resources": ["https://www.altcademy.com/blog/what-is-null-in-javascript/",
+            "https://masteringjs.io/tutorials/fundamentals/null"]
+          },
+          {
+            "subtopic": "Symbol",
+            "resources": ["https://www.javascripttutorial.net/symbol/",
+            "https://javascript.info/symbol",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+            "https://www.youtube.com/watch?v=E5Bblr-SFbA"]
+          },
+          {
+            "subtopic": "Object",
+            "resources": ["https://javascript.info/object",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
+            "https://www.w3schools.com/js/js_object_definition.asp"]
+          },
+          {
+            "subtopic": "Object Prototype",
+            "resources": ["https://www.codeguage.com/courses/js/objects-prototypes",
+            "https://javascript.info/prototypes",
+            "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes",
+            "https://www.youtube.com/watch?v=583MGxjypgU"]
+          },
+          {
+            "subtopic": "Prototypal Inheritance",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
+            "https://javascript.info/prototype-inheritance"]
+          },
+          {
+            "subtopic": "typeof operator",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
+            "https://www.w3schools.com/js/tryit.asp?filename=tryjs_typeof_all"]
+          },
+          {
+            "subtopic": "Built-in Objects",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects", "https://www.tutorialride.com/javascript/javascript-built-in-objects.htm"]
+          }
+        ]
+      },
+      {
+        "topic": "Type Casting",
+        "subtopics": [
+          {
+            "subtopic": "Type Conversion vs Coercion",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion",
+            "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion",
+            "https://www.youtube.com/watch?v=jfQyMPzPTjY"]
+          },
+          {
+            "subtopic": "Explicit Type Casting",
+            "resources": ["https://www.c-sharpcorner.com/article/type-conversions-in-javascript/",
+            "https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion",
+            "https://www.tutorialspoint.com/explain-typecasting-in-javascript",
+            "https://youtu.be/VQLYiFqetZM"]
+          },
+          {
+            "subtopic": "Implicit Type Casting",
+            "resources": ["https://www.w3schools.com/js/js_type_conversion.asp",
+            "https://www.tutorialspoint.com/explain-typecasting-in-javascript",
+            "https://dev.to/promisetochi/what-you-need-to-know-about-javascripts-implicit-coercion-e23"]
+          }
+        ]
+      },
+      {
+        "topic": "Data Structures",
+        "subtopics": [
+          {
+            "subtopic": "Keyed Collections: Map, Weak Map, Set, Weak Set",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+            "https://javascript.info/map-set#map",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+            "https://javascript.info/weakmap-weakset",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+            "https://exploringjs.com/impatient-js/ch_sets.html",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet"
+            ]
+          },
+          {
+            "subtopic": "Indexed Collections: Typed Arrays, Arrays",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays",
+            "https://www.youtube.com/watch?v=UYkJaW3pmj0",
+            "https://javascript.info/array",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+            "https://www.youtube.com/watch?v=oigfaZ5ApsM"]
+          },
+          {
+            "subtopic": "Structured Data: JSON",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON",
+            "https://www.youtube.com/watch?v=iiADhChRriM"]
+          }
+        ]
+      },
+      {
+        "topic": "Equality Comparisons",
+        "subtopics": [
+          {
+            "subtopic": "==, ===, Object.is",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value_equality_using_object.is",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is"
+          ]
+          },
+          {
+            "subtopic": "isLooselyEqual",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality",
+            "https://javascript.info/comparison"]
+          },
+          {
+            "subtopic": "isStrictlyEqual",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality",
+            "https://javascript.info/comparison"]
+          },
+          {
+            "subtopic": "SameValueZero",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value-zero_equality"]
+          }
+        ]
+      },
+      {
+        "topic": "Loops and Iterations",
+        "subtopics": [
+          {
+            "subtopic": "for, do...while, while, for...in loop, for...of loop",
+            "resources": ["https://www.codeguage.com/courses/js/loops-for-loop",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while",
+            "https://www.w3schools.com/jsref/jsref_dowhile.asp",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while",
+            "https://www.codeguage.com/courses/js/loops-while-loop",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in",
+            "https://javascript.info/object#forin",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+          ]
+          },
+          {
+            "subtopic": "break / continue",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break",
+            "https://www.w3schools.com/js/js_break.asp"]
+          }
+        ]
+      },
+      {
+        "topic": "Control Flow",
+        "subtopics": [
+          {
+            "subtopic": "Exceptional Handling",
+            "resources": ["https://rollbar.com/guides/javascript/how-to-throw-exceptions-in-javascript",
+            "https://youtu.be/cFTFtuEQ-10"]
+          },
+          {
+            "subtopic": "Conditional Statements (if...else, Switch)",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else",
+            "https://javascript.info/ifelse",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch",
+            "https://www.codeguage.com/courses/js/conditions-switch",
+            "https://javascript.info/switch"
+            ]
+          },
+          {
+            "subtopic": "throw statement",
+            "resources": ["https://www.w3schools.com/jsref/jsref_throw.asp",
+            "https://developer.mozilla.org/en-us/docs/web/javascript/reference/statements/throw",
+            "https://javascript.info/error-handling",
+            "https://javascript.info/try-catch#throw-operator"]
+          },
+          {
+            "subtopic": "try/catch/finally",
+            "resources": ["https://www.w3schools.com/js/js_errors.asp"]
+          },
+          {
+            "subtopic": "Error Objects",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Expressions & Operators",
+        "subtopics": [
+          {
+            "subtopic": "Assignment Operators",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#assignment_operators",
+              "https://javascript.info/operators#assignment"
+            ]
+          },
+          {
+            "subtopic": "Comparison Operators",
+            "resources": [
+              "https://www.w3schools.com/js/js_comparisons.as",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators"
+            ]
+          },
+          {
+            "subtopic": "Arithmetic Operators",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#arithmetic_operators",
+              "https://javascript.info/operators#maths",
+              "https://www.w3schools.com/js/js_arithmetic.asp"
+            ]
+          },
+          {
+            "subtopic": "Bitwise Operators",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#bitwise_operators",
+              "https://javascript.info/operators#bitwise-operators"
+            ]
+          },
+          {
+            "subtopic": "Logical Operators",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators"]
+          },
+          {
+            "subtopic": "BigInt Operators",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#bigint_operators"]
+          },
+          {
+            "subtopic": "String Operators",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#string_operators",
+              "https://javascript.info/operators#string-concatenation-with-binary"
+            ]
+          },
+          {
+            "subtopic": "Conditional Operators",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#conditional_operator",
+              "https://www.w3schools.com/js/js_comparisons.asp"
+            ]
+          },
+          {
+            "subtopic": "Comma Operators",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator"]
+          },
+          {
+            "subtopic": "Unary Operators",
+            "resources": [
+              "https://www.educba.com/unary-operators-in-javascript/",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#unary_operators"
+            ]
+          },
+          {
+            "subtopic": "Relational Operators",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators"]
+          }
+        ]
+      },
+      {
+        "topic": "Functions",
+        "subtopics": [
+          {
+            "subtopic": "Function Parameters",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters",
+              "https://www.amitmerchant.com/unlimited-function-parameters-with-using-rest-in-java-script/"
+            ]
+          },
+          {
+            "subtopic": "Arrow Functions",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+              "https://www.w3schools.com/js/js_arrow_function.asp"
+            ]
+          },
+          {
+            "subtopic": "IIFEs",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Glossary/IIFE",
+              "https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174"
+            ]
+          },
+          {
+            "subtopic": "arguments object",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments"]
+          },
+          {
+            "subtopic": "Scope & Function Stack",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Glossary/Call_stack",
+              "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+            ]
+          },
+          {
+            "subtopic": "Built-in Functions",
+            "resources": ["https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm",
+            "https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll",
+            "https://www.tutorialride.com/javascript/javascript-built-in-functions.htm"
+            ]
+          },
+          {
+            "subtopic": "Default Params",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters"]
+          },
+          {
+            "subtopic": "Rest",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters"]
+          },
+          {
+            "subtopic": "Recursion",
+            "resources": [
+              "https://javascript.info/recursion",
+              "https://www.codeguage.com/courses/js/functions-recursions",
+              "https://developer.mozilla.org/en-US/docs/Glossary/Recursion"
+            ]
+          },
+          {
+            "subtopic": "Lexical Scoping",
+            "resources": [
+              "https://www.codeguage.com/courses/js/functions-closures#What_is_a_lexical_environment",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#lexical_scoping"
+            ]
+          },
+          {
+            "subtopic": "Closures",
+            "resources": [
+              "https://www.codeguage.com/courses/js/functions-closures",
+              "https://medium.com/learning-new-stuff/javascript-closures-explained-in-3-minutes-5aae8dce2014"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Strict Mode",
+        "subtopics": [
+          {
+            "subtopic": "Explanation and usage of strict mode",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode",
+              "https://javascript.info/strict-mode"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Using (this) keyword",
+        "subtopics": [
+          {
+            "subtopic": "In a method",
+            "resources": [
+              "https://javascript.info/object-methods#this-in-methods",
+              "https://www.w3schools.com/js/js_this.asp"
+            ]
+          },
+          {
+            "subtopic": "In a function",
+            "resources": ["https://www.w3schools.com/js/js_this.asp"]
+          },
+          {
+            "subtopic": "Using it alone",
+            "resources": ["https://www.w3schools.com/js/js_this.asp"]
+          },
+          {
+            "subtopic": "In event handlers",
+            "resources": ["https://www.w3schools.com/js/js_this.asp"]
+          },
+          {
+            "subtopic": "In arrow functions",
+            "resources": ["https://stackoverflow.com/questions/66518020/javascript-this-keyword-and-arrow-function"]
+          },
+          {
+            "subtopic": "Function Borrowing",
+            "resources": [
+              "https://medium.com/@ensallee/function-borrowing-in-javascript-4bd671e9d7b4",
+              "https://stackoverflow.com/questions/69892281/when-would-i-use-function-borrowing"
+            ]
+          },
+          {
+            "subtopic": "Explicit Binding (call, apply, bind)",
+            "resources": [
+              "https://medium.com/swlh/javascript-this-ac28f8e0f65d",
+              "https://medium.com/@msinha2801/explicit-binding-rule-for-this-keyword-in-js-712405b0a11",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+              "https://javascript.info/bind",
+              "https://www.w3schools.com/js/js_function_bind.asp"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Asynchronous JavaScript",
+        "subtopics": [
+          {
+            "subtopic": "Event Loop",
+            "resources": [
+              "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop",
+              "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif",
+              "https://www.youtube.com/watch?v=8aGhZQkoFbQ",
+              "https://www.youtube.com/watch?v=cCOL7MC4Pl0"
+            ]
+          },
+          {
+            "subtopic": "setTimeout, setInterval",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout",
+              "https://www.w3schools.com/jsref/met_win_settimeout.asp",
+              "https://www.youtube.com/watch?v=kOcFZV3c75I",
+              "https://www.youtube.com/watch?v=shWr5DNVeCI"
+            ]
+          },
+          {
+            "subtopic": "Callbacks",
+            "resources": [
+              "https://javascript.info/callbacks",
+              "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function",
+              "https://www.w3schools.com/js/js_callback.asp"
+            ]
+          },
+          {
+            "subtopic": "Promises",
+            "resources": [
+              "https://www.codeguage.com/courses/advanced-js/promises-introduction",
+              "https://www.codeguage.com/courses/advanced-js/promises-basics",
+              "https://www.codeguage.com/courses/advanced-js/promises-chaining",
+              "https://www.codeguage.com/courses/advanced-js/promises-error-handling",
+              "https://youtu.be/Xs1EMmBLpn4"
+            ]
+          },
+          {
+            "subtopic": "Callback Hell",
+            "resources": ["https://javascript.info/callbacks#pyramid-of-doom"]
+          },
+          {
+            "subtopic": "async/await",
+            "resources": [
+              "https://javascript.info/async-await",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+              "https://www.codeguage.com/courses/advanced-js/promises-chaining"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Working with APIs",
+        "subtopics": [
+          {
+            "subtopic": "Fetch and XMLHttp",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data",
+              "https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest",
+              "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+              "https://medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c",
+              "https://blog.openreplay.com/ajax-battle-xmlhttprequest-vs-fetch/"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Classes",
+        "subtopics": [
+          {
+            "subtopic": "Class declarations and methods",
+            "resources": [
+              "https://javascript.info/classes",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Iterators and Generators",
+        "subtopics": [
+          {
+            "subtopic": "Iterators and Generators",
+            "resources": [
+              "https://www.codeguage.com/courses/advanced-js/iteration-introduction",
+              "https://www.codeguage.com/courses/advanced-js/iteration-iterators",
+              "https://www.codeguage.com/courses/advanced-js/iteration-generators"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Modules in JavaScript",
+        "subtopics": [
+          {
+            "subtopic": "CommonJS",
+            "resources": [
+              "https://javascript.info/modules-intro",
+              "https://javascript.info/import-export",
+              "https://javascript.info/modules-dynamic-imports",
+              "https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/",
+              "https://www.youtube.com/watch?v=XTND4rjATXA"
+            ]
+          },
+          {
+            "subtopic": "ESM",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+              "https://javascript.info/modules",
+              "https://nodejs.org/api/esm.html",
+              "https://www.youtube.com/watch?v=cRHQNNcYf6s"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Memory Management",
+        "subtopics": [
+          {
+            "subtopic": "Memory Lifecycle",
+            "resources": [
+              "https://javascript.info/garbage-collection",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management",
+              "https://medium.com/swlh/the-lifecycle-of-memory-in-javascript-5b5bffc5ff4c"
+            ]
+          },
+          {
+            "subtopic": "Garbage Collection",
+            "resources": [
+              "https://javascript.info/garbage-collection",
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "DOM APIs",
+        "subtopics": [
+          {
+            "subtopic": "Working with the Document Object Model (DOM)",
+            "resources": [
+              "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+              "https://www.w3schools.com/js/js_api_intro.asp"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Using Browser DevTools",
+        "subtopics": [
+          {
+            "subtopic": "Debugging Issues",
+            "resources": [
+              "https://developer.chrome.com/docs/devtools/",
+              "https://developer.chrome.com/docs/devtools/javascript/",
+              "https://developer.chrome.com/docs/devtools/javascript/"
+            ]
+          },
+          {
+            "subtopic": "Debugging Memory Leaks",
+            "resources": [
+              "https://medium.com/coding-blocks/catching-memory-leaks-with-chrome-devtools-57b03acb6bb9",
+              "https://medium.com/swlh/effective-javascript-debugging-memory-leaks-75059b2436f6",
+              "https://www.debugbear.com/blog/debugging-javascript-memory-leaks",
+              "https://www.jackhoy.com/web-applications/2020/10/21/debugging-memory-leaks-in-nodejs.html",
+              "https://youtu.be/IkoGmbNJolo"
+            ]
+          },
+          {
+            "subtopic": "Debugging Performance",
+            "resources": ["https://developer.chrome.com/docs/devtools/performance"]
+          }
+        ]
+      }
+    ]
+  }
+  

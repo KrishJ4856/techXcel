@@ -1,0 +1,407 @@
+{
+    "category": "Vue",
+    "topics": [
+      {
+        "topic": "Boostrapping a Project",
+        "subtopics": [
+          {
+            "subtopic": "create-vue",
+            "resources": ["https://cli.vuejs.org/guide/creating-a-project.html","https://github.com/vuejs/create-vue"]
+          }
+        ]
+      },
+      {
+        "topic": "Components",
+        "subtopics": [
+          {
+            "subtopic": "Single File Components",
+            "resources": ["https://vuejs.org/guide/scaling-up/sfc.html"]
+          },
+          {
+            "subtopic": "Component Registration",
+            "resources": ["https://vuejs.org/guide/components/registration.html"]
+          },
+          {
+            "subtopic": "Props",
+            "resources": ["https://vuejs.org/guide/essentials/component-basics.html#passing-props","https://vuejs.org/guide/components/props.html"]
+          },
+          {
+            "subtopic": "Events",
+            "resources": ["https://vuejs.org/guide/essentials/component-basics.html#listening-to-events","https://vuejs.org/guide/components/events.html"]
+          },
+          {
+            "subtopic": "v-model",
+            "resources": ["https://vuejs.org/guide/components/v-model.html#component-v-model"]
+          },
+          {
+            "subtopic": "Attribute Inheritance",
+            "resources": ["https://vuejs.org/guide/components/attrs.html"]
+          }
+        ]
+      },
+      {
+        "topic": "Templates",
+        "subtopics": [
+          {
+            "subtopic": "Templates Overview",
+            "resources": ["https://vuejs.org/guide/essentials/template-syntax.html"]
+          }
+        ]
+      },
+      {
+        "topic": "Directives",
+        "subtopics": [
+          {
+            "subtopic": "v-text",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-text"]
+          },
+          {
+            "subtopic": "v-html",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-html"]
+          },
+          {
+            "subtopic": "v-show",
+            "resources": ["https://vuejs.org/guide/essentials/conditional.html#v-show"]
+          },
+          {
+            "subtopic": "v-if",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-if"]
+          },
+          {
+            "subtopic": "v-else",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-else"]
+          },
+          {
+            "subtopic": "v-else-if",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-else-if"]
+          },
+          {
+            "subtopic": "v-for",
+            "resources": ["https://vuejs.org/guide/essentials/list#v-for"]
+          },
+          {
+            "subtopic": "v-on",
+            "resources": ["https://www.w3schools.com/vue/ref_v-on.php"]
+          },
+          {
+            "subtopic": "v-bind",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-bind"]
+          },
+          {
+            "subtopic": "v-model",
+            "resources": ["https://vuejs.org/guide/essentials/forms.html"]
+          },
+          {
+            "subtopic": "v-slot",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-slot"]
+          },
+          {
+            "subtopic": "v-once",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-once"]
+          },
+          {
+            "subtopic": "v-pre",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-pre"]
+          },
+          {
+            "subtopic": "v-cloak",
+            "resources": ["https://vuejs.org/api/built-in-directives.html#v-cloak"]
+          }
+        ]
+      },
+      {
+        "topic": "Rendering",
+        "subtopics": [
+          {
+            "subtopic": "Conditional Rendering",
+            "resources": ["https://vuejs.org/guide/essentials/conditional.html"]
+          },
+          {
+            "subtopic": "Rendering Lists",
+            "resources": ["https://vuejs.org/guide/essentials/list.html"]
+          },
+          {
+            "subtopic": "Optimizing Renders",
+            "resources": ["https://blog.logrocket.com/optimizing-rendering-vue/"]
+          },
+          {
+            "subtopic": "Debugging",
+            "resources": ["https://vuejs.org/v2/cookbook/debugging-in-vscode.html"]
+          }
+        ]
+      },
+      {
+        "topic": "App Configurations",
+        "subtopics": [
+          {
+            "subtopic": "Error / Warn Handler",
+            "resources": ["https://vuejs.org/v2/cookbook/debugging-in-vscode.html"]
+          },
+          {
+            "subtopic": "Global Properties",
+            "resources": ["https://blog.logrocket.com/vue-js-globalproperties/"]
+          }
+        ]
+      },
+      {
+        "topic": "API Styles",
+        "subtopics": [
+          {
+            "subtopic": "Options API",
+            "resources": ["https://vuejs.org/guide/typescript/options-api.html","https://vuejs.org/api/#options-api"]
+          },
+          {
+            "subtopic": "Composition API",
+            "resources": ["https://vuejs.org/guide/typescript/composition-api.html","https://vuejs.org/guide/extras/composition-api-faq.html","https://vuejs.org/api/#composition-api","https://www.thisdot.co/blog/vue-3-composition-api-ref-and-reactive"]
+          }
+        ]
+      },
+      {
+        "topic": "Lifecycle Hooks",
+        "subtopics": [
+          {
+            "subtopic": "Lifecycle Hooks Overview",
+            "resources": ["https://vuejs.org/guide/essentials/lifecycle.html","https://dev.to/amolikvivian/the-lifecycles-of-vue-js-lhh"]
+          }
+        ]
+      },
+      {
+        "topic": "Forms Handling",
+        "subtopics": [
+          {
+            "subtopic": "Input Bindings",
+            "resources": ["https://vuejs.org/guide/essentials/forms"]
+          },
+          {
+            "subtopic": "v-model",
+            "resources": ["https://vuejs.org/guide/essentials/forms.html"]
+          },
+          {
+            "subtopic": "Modifiers",
+            "resources": ["https://v2.vuejs.org/v2/guide/components-custom-events.html"]
+          }
+        ]
+      },
+      {
+        "topic": "Event Handling",
+        "subtopics": [
+          {
+            "subtopic": "Binding Events",
+            "resources": ["https://vuejs.org/guide/essentials/event-handling","https://www.geeksforgeeks.org/vue-js-event-handling/"]
+
+         },
+          {
+            "subtopic": "Inline / Method Handlers",
+            "resources": ["https://v1.vuejs.org/guide/events.html"]
+          },
+          {
+            "subtopic": "Event Modifiers",
+            "resources": ["https://www.freecodecamp.org/news/how-event-handling-works-in-vue-3-guide-for-devs/"]
+          },
+          {
+            "subtopic": "Key Modifiers",
+            "resources": ["https://vuejs.org/guide/essentials/forms"]
+          },
+          {
+            "subtopic": "Mouse Button Modifiers",
+            "resources": ["https://medium.com/evolve-you/vue-3-keyboard-and-mouse-a4866d7d0e8"]
+          }
+        ]
+      },
+      {
+        "topic": "Computed Properties",
+        "subtopics": [
+          {
+            "subtopic": "Computed Properties Overview",
+            "resources": ["https://vuejs.org/guide/essentials/computed.html#computed-properties"]
+          }
+        ]
+      },
+      {
+        "topic": "Advanced Topics",
+        "subtopics": [
+          {
+            "subtopic": "Async Components",
+            "resources": ["https://vuejs.org/guide/components/async.html"]
+          },
+          {
+            "subtopic": "Teleport Components",
+            "resources": ["https://vuejs.org/guide/built-ins/teleport.html"]
+          },
+          {
+            "subtopic": "Provide / Inject",
+            "resources": ["https://vuejs.org/guide/components/provide-inject.html"]
+          },
+          {
+            "subtopic": "Custom Directives",
+            "resources": ["https://vuejs.org/guide/reusability/custom-directives.html","https://vuejs.org/guide/reusability/composables.html","https://vuejs.org/guide/essentials/component-basics.html"]
+          },
+          {
+            "subtopic": "Plugins",
+            "resources": ["https://vuejs.org/guide/reusability/plugins.html","https://www.linode.com/docs/guides/how-to-write-vue-js-plugins/"]
+          },
+          {
+            "subtopic": "Watchers",
+            "resources": ["https://vuejs.org/guide/essentials/watchers.html"]
+          },
+          {
+            "subtopic": "Slots",
+            "resources": ["https://vuejs.org/guide/components/slots.html"]
+          }
+        ]
+      },
+      {
+        "topic": "Animations",
+        "subtopics": [
+          {
+            "subtopic": "Transition",
+            "resources": ["https://vuejs.org/guide/built-ins/transition.html#transition"]
+            
+        
+          },
+          {
+            "subtopic": "Transition Group",
+            "resources": ["https://vuejs.org/guide/built-ins/transition-group.html"]
+          }
+        ]
+      },
+      {
+        "topic": "Utilities",
+        "subtopics": [
+          {
+            "subtopic": "VueUse",
+            "resources": ["https://vueuse.org/"]
+          }
+        ]
+      },
+      {
+        "topic": "Routing",
+        "subtopics": [
+          {
+            "subtopic": "Vue Router",
+            "resources": ["https://router.vuejs.org/","https://www.youtube.com/watch?v=juocv4AtrHo"]
+          }
+        ]
+      },
+      {
+        "topic": "Forms",
+        "subtopics": [
+          {
+            "subtopic": "FormKit",
+            "resources": ["https://formkit.com/"]
+          },
+          {
+            "subtopic": "Vee Validate",
+            "resources": ["https://vee-validate.logaretm.com/v4/","https://github.com/logaretm/vee-validate"]
+          },
+          {
+            "subtopic": "Vuelidate",
+            "resources": ["https://vuelidate.js.org/","https://github.com/vuelidate/vuelidate"]
+          }
+        ]
+      },
+      {
+        "topic": "SSR",
+        "subtopics": [
+          {
+            "subtopic": "Quasar",
+            "resources": ["https://quasar.dev/","https://www.youtube.com/watch?v=opmng7llVJ0&list=PLAiDzIdBfy8iu_MZrq3IPuSFcRgCQ0iL0","https://www.youtube.com/watch?v=czJIuHyPPXo"]
+          },
+          {
+            "subtopic": "Nuxt.js",
+            "resources": ["https://nuxt.com/","https://nuxt.com/docs/getting-started/introduction","https://nuxt.com/docs/examples/essentials/hello-world","https://explorers.netlify.com/learn/get-started-with-nuxt","https://vueschool.io/courses/nuxtjs-fundamentals"]
+          }
+        ]
+      },
+      {
+        "topic": "SSG",
+        "subtopics": [
+          {
+            "subtopic": "VitePress",
+            "resources": ["https://vitepress.dev/"]
+          },
+          {
+            "subtopic": "Nuxt.js",
+            "resources": ["https://nuxt.com/","https://nuxt.com/docs/getting-started/introduction","https://nuxt.com/docs/examples/essentials/hello-world","https://explorers.netlify.com/learn/get-started-with-nuxt","https://vueschool.io/courses/nuxtjs-fundamentals"]
+          }
+        ]
+      },
+      {
+        "topic": "Testing",
+        "subtopics": [
+          {
+            "subtopic": "Vue Testing Library",
+            "resources": ["https://testing-library.com/docs/vue-testing-library/intro/"]
+          },
+          {
+            "subtopic": "Cypress",
+            "resources": ["https://www.cypress.io/","https://docs.cypress.io/guides/overview/why-cypress#Other","https://www.youtube.com/watch?v=7N63cMKosIE"]
+          },
+          {
+            "subtopic": "Vitest",
+            "resources": ["https://vitest.dev/","https://www.youtube.com/watch?v=cM_AeQHzlGg"]
+          },
+          {
+            "subtopic": "Playwright",
+            "resources": ["https://playwright.dev/","https://www.browserstack.com/guide/playwright-tutorial"]
+          }
+        ]
+      },
+      {
+        "topic": "Styling",
+        "subtopics": [
+          {
+            "subtopic": "Tailwind CSS",
+            "resources": ["https://tailwindcss.com/","https://www.youtube.com/watch?v=lCxcTsOHrjo","https://www.youtube.com/watch?v=UBOj6rqRUME","https://www.youtube.com/watch?v=hdGsFpZ0J2E","https://www.youtube.com/c/TailwindLabs/videos"]
+          },
+          {
+            "subtopic": "Vuetify",
+            "resources": ["https://vuetifyjs.com/en/","https://vuetifyjs.com/en/getting-started/installation/","https://www.youtube.com/watch?v=CjXgoYo86yY"]
+          },
+          {
+            "subtopic": "Element UI",
+            "resources": ["https://element-plus.org/en-US/","https://element-plus.org/en-US/guide/design.html"]
+          }
+        ]
+      },
+      {
+        "topic": "State Management",
+        "subtopics": [
+          {
+            "subtopic": "Pinia",
+            "resources": ["https://pinia.vuejs.org/","https://www.youtube.com/watch?v=JGC7aAC-3y8"]
+          }
+        ]
+      },
+      {
+        "topic": "API Calls",
+        "subtopics": [
+          {
+            "subtopic": "Apollo",
+            "resources": ["https://www.apollographql.com/","https://www.apollographql.com/docs/","https://www.youtube.com/c/ApolloGraphQL/","https://www.youtube.com/watch?v=YyUWW04HwKY"]
+          },
+          {
+            "subtopic": "Axios",
+            "resources": ["https://axios-http.com/docs/intro","https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why"]
+          },
+          {
+            "subtopic": "fetch",
+            "resources": ["https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch","https://www.w3schools.com/jsref/api_fetch.asp","https://javascript.info/fetch"]
+          },
+          {
+            "subtopic": "Tanstack Query",
+            "resources": ["https://tanstack.com/query"]
+          }
+        ]
+      },
+      {
+        "topic": "Mobile Apps",
+        "subtopics": [
+          {
+            "subtopic": "Capacitor",
+            "resources": ["https://blog.logrocket.com/building-cross-platform-apps-with-capacitor-and-vue-js/","https://www.smashingmagazine.com/2018/07/mobile-apps-capacitor-vue-js/"]
+          }
+        ]
+      }
+    ]
+  }
