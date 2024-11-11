@@ -24,6 +24,7 @@ export const SidebarItem = ({ icon, title, isActive, href = "" }: Props) => {
       className="text-default-900 active:bg-none max-w-full"
     >
       <div
+        role="button"
         className={clsx(
           isActive
             ? "bg-primary-100 [&_svg_path]:fill-primary-500"

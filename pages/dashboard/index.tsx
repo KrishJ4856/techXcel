@@ -274,7 +274,7 @@ export default function Dashboard() {
               ) : (
                 <>
                   {isOpen === false ? (
-                    <div onClick={toggleSidebar} className="px-[5px] rounded md:hidden mb-[40px] z-[0]">
+                    <div role="button" onClick={toggleSidebar} className="px-[5px] rounded md:hidden mb-[40px] z-[0]">
                       <BurguerButton />
                     </div>
                   ) : null}

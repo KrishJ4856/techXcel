@@ -39,12 +39,12 @@ export const SidebarWrapper = ({ roadmap, setRoadmap, setUserData, setSelected, 
   return (
     <aside className="h-screen z-[20] sticky top-0">
       {collapsed ? (
-        <div className={Sidebar.Overlay()} onClick={setCollapsed} />
+        <div role="button" className={Sidebar.Overlay()} onClick={setCollapsed} />
       ) : null}
       <div
         className={`bg-background transition-transform h-full fixed w-80 shrink-0 z-[202] overflow-y-auto border-r border-divider flex-col py-6 px-3 md:translate-x-0 md:flex md:static md:h-screen ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
       >
-        <div onClick={toggleSidebar} className="px-[10px] rounded md:hidden mb-[40px]">
+        <div role="button" onClick={toggleSidebar} className="px-[10px] rounded md:hidden mb-[40px]">
           <BurguerButton/>
         </div>
         <div className="flex flex-col justify-between h-full">

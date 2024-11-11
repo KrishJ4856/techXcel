@@ -40,6 +40,7 @@ export const CollapseItems = ({ icon, items, title, setSelected, topic, category
           <div className="pl-8">
             {items.map((item, index) => (
               <span
+                role="button"
                 key={index}
                 className="w-full flex  text-default-500 hover:text-default-900 transition-colors pb-[8px]"
                 onClick={() => {
