@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, DropdownSection, Button } from "@nextui-org/react";
 import axios from "axios";
 
-export const RoadmapTopic = ({ topic, setRoadmap, setUserData }) => {
+export const RoadmapTopic = ({ topic, setRoadmap, setUserData }: any) => {
     const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
     useEffect(() => {

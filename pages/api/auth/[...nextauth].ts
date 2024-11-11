@@ -1,14 +1,14 @@
-import NextAuth from "next-auth";
+import NextAuth, { NextAuthOptions, SessionStrategy } from "next-auth";
 import GitHubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
-import User from "@/models/User"; // Your User model
+import User from "@/models/User";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
-import clientPromise from "../../../lib/mongodb"; 
-import dbConnect from "@/lib/dbConnect";
+import clientPromise from "../../../lib/mongodb";
 import { compareSync } from "bcryptjs";
 
-export default NextAuth({
+// Correct typing for `authOptions`
+export const authOptions: NextAuthOptions = {
   providers: [
     GitHubProvider({
       clientId: process.env.GITHUB_CLIENT_ID || "",
@@ -26,23 +26,21 @@ export default NextAuth({
       },
       async authorize(credentials) {
         if (!credentials) {
-            return null; 
+          return null;
         }
-    
-        // Try to find the user with the email provided in the credentials
+
         const user = await User.findOne({ email: credentials.email });
-    
-        // Verify the password
+
         if (user && compareSync(credentials.password, user.password)) {
-            return { id: user._id, email: user.email }; // Return user object
+          return { id: user._id, email: user.email };
         } else {
-            return null; // Invalid credentials
+          return null;
         }
-    }    
+      }
     }),
   ],
   session: {
-    strategy: "jwt",
+    strategy: "jwt" as SessionStrategy,  // Explicitly type the session strategy
     maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   adapter: MongoDBAdapter(clientPromise),
@@ -51,7 +49,6 @@ export default NextAuth({
   },
   callbacks: {
     async jwt({ token, user }) {
-      // Add user info to the token when a user logs in
       if (user) {
         token.email = user.email;
       }
@@ -59,7 +56,7 @@ export default NextAuth({
     },
     async session({ session, token }) {
       if (session.user) {
-        session.user.email = token.email as string; // Safely assign token.email
+        session.user.email = token.email as string;
       } else {
         session.user = {
           email: token.email as string,
@@ -68,4 +65,6 @@ export default NextAuth({
       return session;
     },
   }
-});
+};
+
+export default NextAuth(authOptions); // Default export for the NextAuth configuration

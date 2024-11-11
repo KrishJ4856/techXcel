@@ -57,7 +57,7 @@ function ResourcePreview({ url }: { url: string }) {
 
   return (
     <div className="w-full h-32 bg-gray-700 overflow-hidden">
-      <img src={imageUrl || ''} alt="Website preview" className="w-full h-full object-cover" />
+      <img src={imageUrl || ""} alt="Website preview" className="w-full h-full object-cover" />
     </div>
   )
 }
@@ -282,7 +282,7 @@ export default function Dashboard() {
                   <h2 className={title({ class: "text-2xl lg:text-3xl mt-4" })}>Topic: {selected.lastResource.subtopic}</h2>
                   <h3 className="text-lg lg:text-2xl mt-4 mb-4">Resources:</h3>
                   <div className="flex flex-wrap gap-[30px]">
-                    {selected.resources.map((res, index) => {
+                    {selected?.resources?.map((res, index) => {
                       return (
                         <Microlink
                           url={res}

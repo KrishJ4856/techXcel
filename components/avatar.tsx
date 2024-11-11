@@ -24,9 +24,6 @@ export default function CustomAvatar() {
           <DropdownItem key="settings">
             My Settings
           </DropdownItem>
-          <DropdownItem key="logout" color="danger" onClick={() => signOut({callbackUrl: "/"})}>
-            Log Out
-          </DropdownItem>
         </DropdownMenu>
       </Dropdown>
     </div>

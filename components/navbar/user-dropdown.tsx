@@ -40,7 +40,7 @@ export const UserDropdown = () => {
           key='profile'
           className='flex flex-col justify-start w-full items-start'>
           <p>Signed in as</p>
-          <p>{session?.user.email}</p>
+          <p>{session?.user?.email}</p>
         </DropdownItem>
         <DropdownItem key='all_topics' href="/topic">All Topics</DropdownItem>
         <DropdownItem key='help_and_feedback' href="/feedback">Help & Feedback</DropdownItem>

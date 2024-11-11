@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose'; // Import mongoose using ES6 syntax
 
 const userSchema = new mongoose.Schema({
   name: String,       // Name of the user (e.g., from OAuth profile)
@@ -22,5 +22,5 @@ const userSchema = new mongoose.Schema({
   lastCategory: String, // The last category the user was learning
 });
 
-// Check if model already exists to prevent overwriting
-module.exports = mongoose.models.User || mongoose.model('User', userSchema);
+// Export the User model using ES6 export syntax
+export default mongoose.models.User || mongoose.model('User', userSchema);

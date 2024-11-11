@@ -96,7 +96,7 @@ export default function LogIn() {
                     </div>
                     <Button onClick={() => signIn('google', { callbackUrl: '/dashboard' })} className="mt-4 w-full" color="default" variant="bordered" startContent={<GoogleIcon/>}>Continue with Google</Button>
                     <Button onClick={() => signIn('github', { callbackUrl: '/dashboard' })} className="mt-1 w-full" color="default" variant="bordered" startContent={<GithubIcon/>}>Continue with GitHub</Button>
-                    <Link size="sm" href="/auth/signup" className="mt-5 w-full flex justify-center items-center">Don't have an account? Sign Up</Link>
+                    <Link size="sm" href="/auth/signup" className="mt-5 w-full flex justify-center items-center">Don&apos;t have an account? Sign Up</Link>
                 </div>
             </section>
         </DefaultLayout>

@@ -22,7 +22,7 @@ import { usePathname } from "next/navigation";
 import { BurguerButton } from "../navbar/burguer-button";
 import { RoadmapTopic } from "./roadmap-topic";
 
-function getSubtopicsArray(subtopics) {
+function getSubtopicsArray(subtopics: any) {
   const subtopicsArr: any[] = []
   subtopics.forEach(sub => {
     subtopicsArr.push({ subtopic: sub.subtopic, resources: sub.resources })
